@@ -5,9 +5,9 @@ mirror:
   operators:
     - catalog: registry.redhat.io/redhat/redhat-operator-index:v4.20
       packages:
-       - name: kiali-ossm
+       - name: rhsso-operator
          defaultChannel: stable
          channels:
-         - name: latest
-           minVersion: '2.22.4'
-           maxVersion: '2.22.4'
+         - name: stable
+           minVersion: '7.6.12-opr-010'
+           maxVersion: '7.6.12-opr-010’
