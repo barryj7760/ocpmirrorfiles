@@ -10,4 +10,4 @@ mirror:
          channels:
          - name: stable
            minVersion: '7.6.12-opr-010'
-           maxVersion: '7.6.12-opr-010’
+           maxVersion: '7.6.12-opr-010'

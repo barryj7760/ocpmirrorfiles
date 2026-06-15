@@ -8,6 +8,6 @@ mirror:
        - name: kiali-ossm
          defaultChannel: stable
          channels:
-         - name: latest
+         - name: stable
            minVersion: '2.22.4'
            maxVersion: '2.22.4'
