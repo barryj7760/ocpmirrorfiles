@@ -10,4 +10,4 @@ mirror:
          channels:
          - name: fast-3.x
            minVersion: '3.4.0'
-           maxVersion: '3.4.0’
+           maxVersion: '3.4.0'

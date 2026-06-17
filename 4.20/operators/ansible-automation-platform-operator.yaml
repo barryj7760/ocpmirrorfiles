@@ -10,4 +10,4 @@ mirror:
          channels:
          - name: stable-2.6
            minVersion: '2.6.0+0.1780320900'
-           maxVersion: '2.6.0+0.1780320900’
+           maxVersion: '2.6.0+0.1780320900'
