@@ -38,6 +38,8 @@ for ORIGFILE in *yaml; do
     log "Processing: $FILE"
 
     TARGET_DIR="$BASE_DIR/$FILE"
+    # CACHE_DIR=$TARGET_DIR
+    CACHE_DIR="/mnt/ext4part/tempcache"
 
     # Parent directory name of BASE_DIR
     #
@@ -73,7 +75,7 @@ for ORIGFILE in *yaml; do
         if oc-mirror --v2 \
             --config "$BASE_DIR/${FILE}.yaml" \
             "file://$TARGET_DIR" \
-            --cache-dir="$TARGET_DIR" \
+	    --cache-dir="$CACHE_DIR" \ 
             --image-timeout 12h; then
 
             SUCCESS=true
