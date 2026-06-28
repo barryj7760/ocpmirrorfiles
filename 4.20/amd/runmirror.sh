@@ -1,0 +1,1 @@
+../scripts/runmirror.sh

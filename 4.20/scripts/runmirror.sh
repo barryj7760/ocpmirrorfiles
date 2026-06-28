@@ -75,8 +75,7 @@ for ORIGFILE in *yaml; do
         if oc-mirror --v2 \
             --config "$BASE_DIR/${FILE}.yaml" \
             "file://$TARGET_DIR" \
-	    --cache-dir="$CACHE_DIR" \ 
-            --image-timeout 12h; then
+	    --cache-dir "$CACHE_DIR" --image-timeout 12h; then
 
             SUCCESS=true
             log "oc-mirror succeeded for $FILE"
