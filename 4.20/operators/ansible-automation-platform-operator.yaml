@@ -6,8 +6,8 @@ mirror:
     - catalog: registry.redhat.io/redhat/redhat-operator-index:v4.20
       packages:
        - name: ansible-automation-platform-operator
-         defaultChannel: stable-2.6
+         defaultChannel: stable-2.7
          channels:
-         - name: stable-2.6
-           minVersion: '2.6.0+0.1780320900'
-           maxVersion: '2.6.0+0.1780320900'
+         - name: stable-2.7
+           minVersion: 'aap-operator.v2.7.0-0.1781768237'
+           maxVersion: 'aap-operator.v2.7.0-0.1781768237'
