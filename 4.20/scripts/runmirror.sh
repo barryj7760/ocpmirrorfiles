@@ -38,8 +38,8 @@ for ORIGFILE in *yaml; do
     log "Processing: $FILE"
 
     TARGET_DIR="$BASE_DIR/$FILE"
-    # CACHE_DIR=$TARGET_DIR
-    CACHE_DIR="/mnt/ext4part/tempcache"
+    CACHE_DIR=$TARGET_DIR
+    # CACHE_DIR="/mnt/ext4part/tempcache"
 
     # Parent directory name of BASE_DIR
     #

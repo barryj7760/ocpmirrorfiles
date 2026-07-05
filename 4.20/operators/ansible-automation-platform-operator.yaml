@@ -9,5 +9,5 @@ mirror:
          defaultChannel: stable-2.7
          channels:
          - name: stable-2.7
-           minVersion: 'aap-operator.v2.7.0-0.1781768237'
-           maxVersion: 'aap-operator.v2.7.0-0.1781768237'
+           minVersion: '2.7.0-0.1781768237'
+           maxVersion: '2.7.0-0.1781768237'
