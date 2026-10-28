@@ -9,5 +9,5 @@ mirror:
          defaultChannel: stable
          channels:
          - name: stable
-           minVersion: 'kubernetes-nmstate-operator.4.20.0-202610242026'
-           maxVersion: 'kubernetes-nmstate-operator.4.20.0-202610242026'
+           minVersion: '4.20.0-202610242026'
+           maxVersion: '4.20.0-202610242026'
