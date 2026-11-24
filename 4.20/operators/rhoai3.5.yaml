@@ -1,5 +1,6 @@
 kind: ImageSetConfiguration
 apiVersion: mirror.openshift.io/v2alpha1
+archiveSize: 15 #<- this will be the size of each tar. Change if needed
 mirror:
   operators:
     - catalog: registry.redhat.io/redhat/redhat-operator-index:v4.20
